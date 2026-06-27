@@ -1,0 +1,78 @@
+/* Verstka Backend v2 Admin Styles */
+
+.vms-v2-editor-panel .components-panel__body {
+    border: none !important;
+}
+
+.vms-v2-editor-panel .components-panel__row {
+    margin: 0 !important;
+}
+
+.vms-v2-editor-panel .components-button {
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.vms-v2-toggle {
+    font-size: 16px;
+    text-decoration: none;
+    color: #666;
+}
+
+.vms-v2-toggle:hover {
+    color: #0073aa;
+}
+
+.column-post_isvms,
+.wp-list-table .column-post_isvms {
+    width: 3% !important;
+    text-align: center !important;
+}
+
+.vms-v2-edit-button {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 2px 8px;
+    background: #0073aa;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.vms-v2-edit-button:hover {
+    background: #005a87;
+    color: #fff !important;
+}
+
+.verstka-settings-section {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.verstka-settings-section h3 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+.vms-v2-settings-block {
+    margin: 24px 0;
+}
+
+.vms-v2-settings-block h2 {
+    margin-top: 0;
+}
+
+.vms-v2-settings-actions {
+    margin-top: 12px;
+}
+
+@media (max-width: 782px) {
+    .vms-v2-edit-button {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
